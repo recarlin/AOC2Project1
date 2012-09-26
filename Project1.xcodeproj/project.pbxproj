@@ -15,6 +15,11 @@
 		FA475890161295670051A203 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA47588F161295670051A203 /* AppDelegate.m */; };
 		FA475893161295670051A203 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA475892161295670051A203 /* ViewController.m */; };
 		FA475896161295670051A203 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA475894161295670051A203 /* ViewController.xib */; };
+		FA47589E161296DE0051A203 /* baseTower.m in Sources */ = {isa = PBXBuildFile; fileRef = FA47589D161296DE0051A203 /* baseTower.m */; };
+		FA4758A1161296EE0051A203 /* towerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4758A0161296EE0051A203 /* towerFactory.m */; };
+		FA4758A41612970F0051A203 /* lightningTower.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4758A31612970F0051A203 /* lightningTower.m */; };
+		FA4758A71612971D0051A203 /* fireTower.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4758A61612971D0051A203 /* fireTower.m */; };
+		FA4758AA1612972C0051A203 /* iceTower.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4758A91612972C0051A203 /* iceTower.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +36,16 @@
 		FA475891161295670051A203 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FA475892161295670051A203 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FA475895161295670051A203 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		FA47589C161296DE0051A203 /* baseTower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseTower.h; sourceTree = "<group>"; };
+		FA47589D161296DE0051A203 /* baseTower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = baseTower.m; sourceTree = "<group>"; };
+		FA47589F161296EE0051A203 /* towerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = towerFactory.h; sourceTree = "<group>"; };
+		FA4758A0161296EE0051A203 /* towerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = towerFactory.m; sourceTree = "<group>"; };
+		FA4758A21612970F0051A203 /* lightningTower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lightningTower.h; sourceTree = "<group>"; };
+		FA4758A31612970F0051A203 /* lightningTower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lightningTower.m; sourceTree = "<group>"; };
+		FA4758A51612971D0051A203 /* fireTower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fireTower.h; sourceTree = "<group>"; };
+		FA4758A61612971D0051A203 /* fireTower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fireTower.m; sourceTree = "<group>"; };
+		FA4758A81612972C0051A203 /* iceTower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iceTower.h; sourceTree = "<group>"; };
+		FA4758A91612972C0051A203 /* iceTower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iceTower.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +98,16 @@
 				FA475892161295670051A203 /* ViewController.m */,
 				FA475894161295670051A203 /* ViewController.xib */,
 				FA475886161295670051A203 /* Supporting Files */,
+				FA47589F161296EE0051A203 /* towerFactory.h */,
+				FA4758A0161296EE0051A203 /* towerFactory.m */,
+				FA47589C161296DE0051A203 /* baseTower.h */,
+				FA47589D161296DE0051A203 /* baseTower.m */,
+				FA4758A21612970F0051A203 /* lightningTower.h */,
+				FA4758A31612970F0051A203 /* lightningTower.m */,
+				FA4758A51612971D0051A203 /* fireTower.h */,
+				FA4758A61612971D0051A203 /* fireTower.m */,
+				FA4758A81612972C0051A203 /* iceTower.h */,
+				FA4758A91612972C0051A203 /* iceTower.m */,
 			);
 			path = Project1;
 			sourceTree = "<group>";
@@ -164,6 +189,11 @@
 				FA47588C161295670051A203 /* main.m in Sources */,
 				FA475890161295670051A203 /* AppDelegate.m in Sources */,
 				FA475893161295670051A203 /* ViewController.m in Sources */,
+				FA47589E161296DE0051A203 /* baseTower.m in Sources */,
+				FA4758A1161296EE0051A203 /* towerFactory.m in Sources */,
+				FA4758A41612970F0051A203 /* lightningTower.m in Sources */,
+				FA4758A71612971D0051A203 /* fireTower.m in Sources */,
+				FA4758AA1612972C0051A203 /* iceTower.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +225,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
@@ -221,6 +252,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
