@@ -10,18 +10,21 @@
 
 @implementation fireTower
 
+//easy "getters" and "setters"
 @synthesize fireEssencePerLevel;
 
+//simple init, setting the tower name
 -(id)init
 {
     self = [super init];
     if (self != nil)
     {
-        self.towerName = [NSString stringWithFormat:@"Level %d Fire Tower", self.towerLevel];;
+        self.towerName = @"Fire Tower";
     }
     return self;
 }
 
+//modified calculation going off the the unique data members
 -(int)calculateCost
 {
     return self.towerLevel * fireEssencePerLevel;

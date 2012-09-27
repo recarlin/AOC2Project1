@@ -10,8 +10,10 @@
 
 @implementation baseTower
 
+//easy "getters" and "setters"
 @synthesize towerLevel, towerName;
 
+//simple init, setting defaults so I know if they are changed later in the implementation
 -(id)init
 {
     self = [super init];
@@ -23,6 +25,7 @@
     return self;
 }
 
+//default calculation
 -(int)calculateCost
 {
     return towerLevel * 80;

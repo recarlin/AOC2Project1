@@ -12,6 +12,9 @@
 
 +(baseTower *)createTower: (int)towerType
 {
+
+//switch statement deciding what tower to make
+    
     switch (towerType) {
         case LIGHTNING:
         {
