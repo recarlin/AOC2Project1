@@ -10,4 +10,8 @@
 
 @interface iceTower : baseTower
 
+@property int discountPerLevel;
+
+-(id)init;
+
 @end

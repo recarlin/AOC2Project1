@@ -7,7 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "towerFactory.h"
 
 @interface ViewController : UIViewController
+{
+    UILabel *lightningTowerInfo;
+    UILabel *lightningTowerCost;
+    UILabel *fireTowerInfo;
+    UILabel *fireTowerCost;
+    UILabel *iceTowerInfo;
+    UILabel *iceTowerCost;
+}
+
+
 
 @end

@@ -10,4 +10,9 @@
 
 @interface lightningTower : baseTower
 
+@property int costPerRod;
+@property int amountMetalRods;
+
+-(id)init;
+
 @end

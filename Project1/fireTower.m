@@ -10,4 +10,23 @@
 
 @implementation fireTower
 
+@synthesize fieryMagicPerLevel;
+
+-(id)init
+{
+    self = [super init];
+    if (self != nil)
+    {
+        [self setFieryMagicPerLevel:0];
+        
+        [self setTowerLevel:0];
+        [self setTowerName:@"Lightning Tower"];
+    }
+    return self;
+}
+
+-(int)calculateCost
+{
+    return self.towerLevel * fieryMagicPerLevel;
+}
 @end

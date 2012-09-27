@@ -12,7 +12,29 @@
 
 +(baseTower *)createTower: (int)towerType
 {
-    return [[lightningTower alloc]init];
+    switch (towerType) {
+        case LIGHTNING:
+        {
+            return [[lightningTower alloc]init];
+        }
+            break;
+        case FIRE:
+        {
+            return [[fireTower alloc]init];
+        }
+            break;
+        case ICE:
+        {
+            return [[iceTower alloc]init];
+        }
+            break;
+        
+        default:
+        {
+            return nil;
+        }
+            break;
+    };
 }
 
 @end

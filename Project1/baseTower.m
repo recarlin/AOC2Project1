@@ -17,14 +17,14 @@
     self = [super init];
     if (self != nil)
     {
-        [self setTowerLevel:2];
-        [self setTowerName:@"TERWER!"];
+        [self setTowerLevel:1];
+        [self setTowerName:@"Basic Tower"];
     }
     return self;
 }
 
--(int)calculateDamage
+-(int)calculateCost
 {
-    return 1;
+    return towerLevel * 80;
 }
 @end

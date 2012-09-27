@@ -15,7 +15,7 @@
 
 typedef enum
 {
-    lIGHTNING,
+    LIGHTNING,
     FIRE,
     ICE
 } towerType;
@@ -25,6 +25,6 @@ typedef enum
 
 -(id)init;
 
--(int)calculateDamage;
+-(int)calculateCost;
 
 @end

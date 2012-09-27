@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import "baseTower.h"
 #import "lightningTower.h"
+#import "fireTower.h"
+#import "iceTower.h"
 
 @interface towerFactory : NSObject
 
