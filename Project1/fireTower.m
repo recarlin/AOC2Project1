@@ -10,23 +10,20 @@
 
 @implementation fireTower
 
-@synthesize fieryMagicPerLevel;
+@synthesize fireEssencePerLevel;
 
 -(id)init
 {
     self = [super init];
     if (self != nil)
     {
-        [self setFieryMagicPerLevel:0];
-        
-        [self setTowerLevel:0];
-        [self setTowerName:@"Lightning Tower"];
+        self.towerName = [NSString stringWithFormat:@"Level %d Fire Tower", self.towerLevel];;
     }
     return self;
 }
 
 -(int)calculateCost
 {
-    return self.towerLevel * fieryMagicPerLevel;
+    return self.towerLevel * fireEssencePerLevel;
 }
 @end

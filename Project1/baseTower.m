@@ -17,8 +17,8 @@
     self = [super init];
     if (self != nil)
     {
-        [self setTowerLevel:1];
-        [self setTowerName:@"Basic Tower"];
+        self.towerLevel = 1;
+        self.towerName = @"Basic Tower";
     }
     return self;
 }

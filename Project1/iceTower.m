@@ -10,24 +10,20 @@
 
 @implementation iceTower
 
-@synthesize discountPerLevel;
+@synthesize discountPerLevel, iceEssencePerLevel;
 
 -(id)init
 {
     self = [super init];
     if (self != nil)
     {
-        [self setDiscountPerLevel:0];
-        
-        [self setTowerLevel:0];
-        [self setTowerName:@"Lightning Tower"];
+        self.towerName = [NSString stringWithFormat:@"Level %d Ice Tower", self.towerLevel];
     }
     return self;
 }
 
 -(int)calculateCost
 {
-    int baseCost = self.towerLevel * 80;
-    return baseCost - (baseCost * discountPerLevel);
+    return self.towerLevel * (80 - self.discountPerLevel);
 }
 @end

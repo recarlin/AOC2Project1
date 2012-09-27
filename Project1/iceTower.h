@@ -11,6 +11,7 @@
 @interface iceTower : baseTower
 
 @property int discountPerLevel;
+@property int iceEssencePerLevel;
 
 -(id)init;
 

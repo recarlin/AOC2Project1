@@ -17,11 +17,7 @@
     self = [super init];
     if (self != nil)
     {
-        [self setCostPerRod:0];
-        [self setAmountMetalRods:0];
-        
-        [self setTowerLevel:0];
-        [self setTowerName:@"Lightning Tower"];
+        self.towerName = [NSString stringWithFormat:@"Level %d Lightning Tower", self.towerLevel];
     }
     return self;
 }

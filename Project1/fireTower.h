@@ -10,7 +10,7 @@
 
 @interface fireTower : baseTower
 
-@property int fieryMagicPerLevel;
+@property int fireEssencePerLevel;
 
 -(id)init;
 
